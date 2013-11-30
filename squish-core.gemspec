@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = [ 'github@timothymorgan.info' ]
   s.authors     = [ 'Tim Morgan']
   s.license     = 'MIT'
-  s.version     = Squash::VERSION
+  s.version     = Squish::Core::VERSION
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
