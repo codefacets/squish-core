@@ -1,1 +1,1 @@
-require 'squish/engine'
+require 'squish/core/engine'
