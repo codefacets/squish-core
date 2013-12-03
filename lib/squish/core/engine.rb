@@ -23,6 +23,7 @@ module Squish
 
       config.autoload_paths << config.root.join('app', 'models', 'additions')
       config.autoload_paths << config.root.join('app', 'models', 'observers')
+      config.autoload_paths << config.root.join('app', 'workers')
       config.autoload_paths << config.root.join('lib')
 
       # Activate observers that should always be running.
